@@ -1,0 +1,624 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: nunito;
+    font-weight: bold;
+}
+
+body {
+    background-color: #f2f4f5;
+}
+
+@font-face {
+    font-family: nunito;
+    src: url(../fonts/Nunito-Italic-VariableFont_wght.ttf);
+}
+
+.nav1 {
+    position: sticky;
+    top: 0px;
+    height: 100px;
+    background-color: lightyellow;
+}
+
+.logo {
+    padding: 20px;
+    float: left;
+}
+
+.content {
+    margin: 30px 20px 20px 100px;
+    width: 800px;
+    display: inline-block;
+}
+
+.content .one>a {
+    text-decoration: none;
+    color: red;
+    display: inline-block;
+    padding: 10px 10px;
+    font-weight: lighter;
+}
+
+.content .one>a:hover {
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.icons {
+    color: brown;
+    height: 100px;
+    float: right;
+    margin-right: 20px;
+}
+
+.one {
+    display: inline-block;
+    position: relative;
+}
+
+p {
+    clear: both;
+}
+
+.BOX1 ul {
+    list-style-type: none;
+}
+
+.BOX1 ul li {
+    padding: 10px;
+}
+
+.BOX1 {
+    width: 100px;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(122, 117, 117, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transition-property: all;
+    transition-duration: 0.5s;
+    /* transform: scale(0.5); */
+}
+
+.one:hover .BOX1 {
+    top: 70px;
+    width: 280px;
+    transform: scale(1);
+    left: 0px;
+    height: 300px;
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.one a i {
+    color: grey;
+}
+
+.one:hover .fa-solid {
+    transform: rotate(180deg);
+    color: grey;
+}
+
+.two {
+    padding: 30px 20px;
+    text-align: center;
+    float: right;
+}
+
+.img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.recharge {
+    width: 100%;
+    height: 200px;
+}
+
+.pay {
+    width: 50%;
+    height: 200px;
+    color: white;
+    background-color: #a80000;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: -6px;
+    float: left;
+}
+
+.form {
+    width: 50%;
+    height: 200px;
+    color: white;
+    background-color: #a80000;
+    padding-top: 20px;
+    margin-top: -6px;
+    float: right;
+}
+
+.form ul li a {
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+.form ul li {
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.airtel:hover {
+    background-color: white;
+    color: black;
+}
+
+.phone {
+    border: 1px solid #a80000;
+    margin: 20px 10px 0px 50px;
+    padding: 10px;
+    width: 440px;
+    border-radius: 5px;
+}
+
+.button {
+    text-decoration: none;
+    background-color: white;
+    color: #a80000;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    border: 2px solid #fff;
+    background-color: #a80000;
+    color: #fff;
+}
+
+.exp {
+
+    width: 100%;
+}
+
+.big-box {
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+}
+
+
+p {
+    clear: both;
+}
+
+.small-box {
+    font-size: 25px;
+    padding: 20px;
+    width: 180px;
+    height: 180px;
+    background-color: #fff;
+    float: left;
+    margin: 20px 11px 20px 11px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.small-box:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.7);
+}
+
+.small-box h1 {
+    padding-top: 45px;
+    font-size: 20px;
+}
+
+.banner {
+    background-color: black;
+    width: 100%;
+
+}
+
+.png {
+    width: 50%;
+    float: right;
+    height: 450px;
+    vertical-align: bottom;
+}
+
+.fl {
+    clear: both;
+}
+
+.logo2 {
+
+    float: left;
+    width: 50%;
+    height: 450px;
+    padding: 40px 40px 20px 40px;
+    color: white;
+}
+
+.logo2 h1 {
+    padding: 50px;
+}
+
+.ban-but {
+    margin-left: 50px;
+}
+
+.ban-but a {
+    text-decoration: none;
+    color: white;
+
+    border: 1px solid darkred;
+    border-radius: 30px;
+    padding: 20px 30px;
+}
+
+.text {
+    width: 60%;
+    height: 523px;
+    float: left;
+    background-color: #fff;
+}
+
+.text>h1 {
+    padding: 50px;
+    text-decoration: red underline;
+}
+
+.ddd {
+    padding: 0px 70px;
+    font-size: 25px;
+    color: black;
+}
+
+.ddd i {
+    color: red;
+}
+
+.model {
+    width: 40%;
+    height: 523px;
+    float: right;
+    background-color: #fff;
+
+}
+
+.boxx {
+    width: 70%;
+    margin: 0 auto;
+    height: 200px;
+}
+
+.small-box a {
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 50px;
+    color: red;
+
+}
+
+.small-box a:hover {
+    color: blue;
+}
+
+.boxx {
+    margin: 50px;
+}
+
+.any {
+    width: 100%;
+    height: 500px;
+}
+
+.banner2 {
+    text-align: end;
+    float: left;
+    width: 40%;
+    height: 500px;
+    background-color: #a70000;
+}
+
+.text2 {
+    background-color: #a70000;
+    float: right;
+    width: 60%;
+    height: 500px;
+}
+
+.text2 h1 {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+.text2 h2 {
+    font-size: 40px;
+    color: white;
+    padding-left: 70px;
+    padding-top: 50px;
+
+
+}
+
+.last {
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+.last a {
+    text-decoration: none;
+    color: red;
+    border: 2px solid #a70000;
+    background-color: #fff;
+    padding: 10px 8px;
+    border-radius: 10px;
+}
+
+.last a:hover {
+    color: white;
+    border: 1px solid red;
+    background-color: red;
+}
+
+.banner3 {
+    text-align: center;
+    background-color: #fff;
+}
+
+.talk {
+    width: 100%;
+}
+
+.img4 {
+    width: 50%;
+    background-color: #a80000;
+    float: right;
+}
+
+.talk1 {
+    width: 50%;
+    background-color: #a80000;
+    float: left;
+    height: 387.6px;
+}
+
+.talk1 h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+    color: #fff;
+
+}
+
+.talk1 h2 {
+    padding: 20px 0px 0px 200px;
+    font-size: 50px;
+    color: #fff;
+}
+
+.talk1 h3 {
+    padding: 20px 0px 20px 200px;
+    color: #fff;
+
+}
+
+.talk-button {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.talk-button a {
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    color: #a80000;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.talk-button a:hover {
+    background-color: darkred;
+    color: white;
+    border: 1px solid #a80000;
+}
+
+.side {
+    width: 100%;
+    height: 500px;
+
+}
+
+.side1 {
+    width: 50%;
+    height: 350px;
+    background-color: #e9e2d0;
+    float: left;
+    padding-top: 100px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.side2 {
+    width: 50%;
+    height: 350px;
+    background-color: #e9e2d0;
+    float: right;
+}
+
+.side2 h2 {
+    padding-top: 110px;
+    padding-left: 100px;
+}
+
+.side2 h1 {
+    padding-top: 10px;
+}
+
+.side2 h4 {
+    padding: 10px;
+}
+
+.wynk-button {
+
+    padding-top: 15px;
+}
+
+.wynk-button a {
+    text-decoration: none;
+    color: #a80000;
+    border: 1px solid #e9e2d0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.wynk-button a:hover {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #a80000;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #a80000;
+}
+
+.app {
+    width: 100%;
+}
+
+.app-pic {
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 40px;
+    height: 440px;
+    width: 50%;
+    float: left;
+    background-color: #a80000;
+}
+
+.app-bio {
+    color: #fff;
+    padding-top: 80px;
+    width: 50%;
+    height: 440px;
+    float: right;
+    background-color: #a80000;
+}
+
+.app-bio h2 {
+    padding: 10px 0px;
+}
+
+.app-bio h1 {
+    font-size: 40px;
+    padding: 10px 0px;
+}
+
+.app-bio h5 {
+    font-size: 15px;
+    padding: 10px 0px;
+}
+
+.app-bio i {
+    font-size: 40px;
+
+}
+
+.app-bio a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.fa-apple {
+    margin-left: 30px;
+}
+
+.fa-brands {
+    padding: 10px 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 600px;
+}
+
+.sub-box {
+    width: 95%;
+    height: 500;
+    margin: 0 auto;
+}
+
+.foot1 {
+    width: 280px;
+    height: 500px;
+    float: left;
+}
+
+.foot1 a {
+    display: block;
+    padding: 4px 8px;
+    text-decoration: none;
+    color: grey;
+}
+
+.foot1 a:hover {
+    color: red;
+}
+
+.foot1 h2 {
+    margin: 8px;
+}
+
+.foot2 {
+    width: 280px;
+    height: 500px;
+    float: left;
+}
+
+.foot2>a {
+    text-decoration: none;
+    font-size: 35px;
+    color: red;
+    display: inline-block;
+    padding: 30px 0px;
+}
+
+.social a {
+    text-decoration: none;
+    font-size: 25px;
+    color: grey;
+    display: inline-block;
+    padding: 30px 0px;
+}
+
+.fa-twitter:hover {
+    color: #1877f2;
+}
+
+.fa-facebook:hover {
+    color: #1877f2;
+}
+
+.fa-linkedin:hover {
+    color: #1877f2;
+}
+
+.fa-youtube:hover {
+    color: red;
+}
